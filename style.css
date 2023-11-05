@@ -27,6 +27,10 @@ header {
 	background-color: chocolate;
 }
 
+.drinks-box {
+    width:33%;
+}
+
 a:hover {
 	text-decoration: none;
 	color: chocolate;
