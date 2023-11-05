@@ -11,6 +11,10 @@ header {
 	background-color: black;
 }
 
+.page-header {
+    height:50vh;
+}
+
 .bold {
 	font-weight: bold;
 }
