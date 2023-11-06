@@ -12,6 +12,18 @@ h1 {
 	font-size:3rem;
 }
 
+h2 {
+    font-size:xx-large;
+}
+
+strong {
+    font-size:1.3rem;
+}
+
+legend {
+    font-size:large;
+}
+
 header > p {
 	color: white;
 }
@@ -77,6 +89,7 @@ footer > a {
 	color: beige;
 	text-decoration: none;
 	padding: 0 15px;
+	font-size:0.8rem;
 }
 
 footer > p {
