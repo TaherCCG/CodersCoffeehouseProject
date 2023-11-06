@@ -28,10 +28,14 @@ header {
 	background-color: black;
 	color:beige;
 }
+.underline {
+	text-decoration:underline;
+}
 
 nav > a {
 	color:beige;
 	margin:1rem;
+	text-decoration:none;
 }
 
 nav > a:hover {
