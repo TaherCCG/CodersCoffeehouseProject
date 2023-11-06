@@ -9,7 +9,6 @@ h1,h2,h3 {
 }
 
 h1 {
-	color: brown;
 	font-size:3rem;
 }
 
@@ -19,6 +18,20 @@ header > p {
 
 header {
 	background-color: black;
+	color:beige;
+}
+
+nav > a {
+	color:beige;
+	margin:1rem;
+}
+
+nav > a:hover {
+	color:silver;
+}
+
+.text-white {
+	color:#ffffff;
 }
 
 .page-header {
