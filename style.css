@@ -50,6 +50,10 @@ nav > a:hover {
 	color:#ffffff;
 }
 
+.text-uppercase {
+	text-transform:uppercase;
+}
+
 .page-header {
     height:50vh;
 }
@@ -116,4 +120,5 @@ form {
 legend {
     font-size:large;
 	font-weight:600;
+	text-transform:uppercase;
 }
