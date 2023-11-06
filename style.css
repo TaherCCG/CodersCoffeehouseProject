@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
 body {
-    font-family:'Open Sans', Arial, sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 h1,h2,h3 {
-    font-family:'Merienda One', 'Brush Script MT', cursive;
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
 }
 
 h1 {
-	font-size:3rem;
+	font-size: 3rem;
 }
 
 h2 {
-    font-size:xx-large;
+	font-size: xx-large;
 }
 
-strong {
-    font-size:1.3rem;
+header {
+	color: beige;
 }
 
 header > p {
@@ -26,48 +26,59 @@ header > p {
 
 header {
 	background-color: black;
-	color:beige;
-}
-.underline {
-	text-decoration:underline;
-}
-
-nav > a {
-	color:beige;
-	margin:1rem;
-	text-decoration:none;
-}
-
-nav > a:hover {
-	color:silver;
-}
-
-small {
-	font-style:italic;
-}
-
-.text-center {
-    text-align:center;
-}
-
-.text-right {
-    text-align:right;
-}
-
-.text-white {
-	color:#ffffff;
-}
-
-.text-uppercase {
-	text-transform:uppercase;
 }
 
 .page-header {
-    height:50vh;
+    height: 50vh;	
+}
+
+.text-white {
+	color: #FFFFFF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+strong {
+	font-size: 1.3rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+nav {
+    padding:0;
+}
+nav > a {
+	text-decoration: none;
+	color: beige;
+	margin: 1rem;
+}
+
+nav > a:hover {
+	color: silver;
 }
 
 .bold {
 	font-weight: bold;
+}
+
+small {
+	font-style: italic;
+}
+
+.reasons-box {
+    padding:10px 5px 25px 5px;
 }
 
 #coffee-box {
@@ -75,7 +86,7 @@ small {
 }
 
 #tea-box {
-	 background-color: #6f4e37;
+	background-color: #6f4e37;
 }
 
 #cold-drinks-box {
@@ -83,7 +94,15 @@ small {
 }
 
 .drinks-box {
-    width:33%;
+	width: 33%;
+}
+
+#drinks {
+    padding:1rem;
+}
+
+ul {
+    padding:1rem;
 }
 
 a:hover {
@@ -105,14 +124,14 @@ footer > a {
 	color: beige;
 	text-decoration: none;
 	padding: 0 15px;
-	font-size:0.8rem;
+	font-size: 0.8rem;
 }
 
 footer > p {
 	color: silver;
 }
 
-button[type=submit] {
+input[type=submit] {
 	margin-left: 0.75rem;
 	padding: 0.75rem;
 	background-color: #5e361b;
@@ -121,12 +140,33 @@ button[type=submit] {
 	border-radius: 5px;
 }
 
+select {
+    padding-left:10px;
+    height:30px;
+    width:100px;
+}
+
+input[type=text],
+input[type=email],
+input[list=coffees] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+/* overrides css above */
+input[list=coffees] {
+    width: 45%;
+}
+
 form {
-	width:700px;
+	width: 700px;
+	padding:25px;
 }
 
 legend {
-    font-size:large;
-	font-weight:600;
-	text-transform:uppercase;
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
 }
+
