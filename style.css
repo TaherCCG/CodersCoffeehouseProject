@@ -38,6 +38,14 @@ nav > a:hover {
 	color:silver;
 }
 
+.text-center {
+    text-align:center;
+}
+
+.text-right {
+    text-align:right;
+}
+
 .text-white {
 	color:#ffffff;
 }
