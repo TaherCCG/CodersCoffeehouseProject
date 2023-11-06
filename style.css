@@ -42,6 +42,10 @@ nav > a:hover {
 	color:silver;
 }
 
+small {
+	font-style:italic;
+}
+
 .text-center {
     text-align:center;
 }
