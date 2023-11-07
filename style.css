@@ -19,7 +19,6 @@ h1,h2,h3 {
 
 #contact{
 margin-bottom: 50px;
-
 }
 
 .contact-boxed-container{
@@ -76,9 +75,7 @@ th ,td {
 
 .page-header {
     height: 50vh;
-	background-size: cover;
-    background-repeat:no-repeat;
-	background-position:center 75%;	
+	background:	center 75% / cover no-repeat;
 }
 
 .text-white {
@@ -107,6 +104,7 @@ strong {
 
 nav {
     padding:1rem;
+	background-color: black;
 }
 nav > a {
 	text-decoration: none;
@@ -151,11 +149,7 @@ small {
 
 #drinks {
     padding:1rem;
-	background-image:url("https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg");
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center center;
-	background-attachment:fixed;
+	background:url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') center center / cover no-repeat fixed;
 }
 
 ul {
