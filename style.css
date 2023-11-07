@@ -204,6 +204,10 @@ footer {
 	background-color: #6f4e37;
 	padding: 1em;
 	text-align: center;
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:100%;
 }
 
 footer > span {
