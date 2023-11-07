@@ -2,6 +2,11 @@
 
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
+	background-color:whitesmoke;
+}
+
+.black-background {
+	background-color:black;
 }
 
 h1,h2,h3 {
@@ -118,6 +123,7 @@ small {
     padding:10px 5px 25px 5px;
 	border-radius:8px;
 	width:100%;
+	background-color:chocolate;
 }
 
 #coffee-box {
@@ -202,6 +208,7 @@ form {
 	width: 700px;
 	padding:25px;
 	border-radius:8px;
+	background-color:white;
 }
 
 #terms {
