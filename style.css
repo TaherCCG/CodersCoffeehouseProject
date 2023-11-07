@@ -9,7 +9,7 @@ body {
 	background-color:black;
 }
 
-.home {
+#home {
     background-image:url("https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffeehouse.jpg");
 }
 
