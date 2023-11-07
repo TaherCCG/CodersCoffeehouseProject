@@ -149,6 +149,16 @@ small {
 
 .drinks-box {
 	width: 33%;
+	display:inline-block;	
+}
+.one-third-width-column {
+    display:inline-block;
+    width:33%;
+}
+
+.two-thirds-width-column {
+    display:inline-block;
+    width:66%;
 }
 
 #drinks {
