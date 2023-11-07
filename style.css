@@ -75,7 +75,9 @@ th ,td {
 }
 
 .page-header {
-    height: 50vh;	
+    height: 50vh;
+	background-size: cover;
+    background-repeat:no-repeat;	
 }
 
 .text-white {
@@ -149,6 +151,7 @@ small {
 #drinks {
     padding:1rem;
 	background-image:url("https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg");
+	background-repeat:no-repeat;
 }
 
 ul {
