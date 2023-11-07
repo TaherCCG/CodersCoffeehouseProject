@@ -131,16 +131,27 @@ small {
 	font-style: italic;
 }
 
+.vertical-center {
+    position:relative;
+    top:50%;
+}
+
 .reasons-box {
     padding:10px 5px 25px 5px;
 	border-radius:8px;
 	width:100%;
 	margin:2%;
 	background-color:chocolate;
+	position:relative;
+	left:20%;
+	top:30px;
 }
 
 #coffee-box {
 	background-color: brown;
+	position:relative;
+	left:70px;
+	top:-15px;
 }
 
 #reasons li {
@@ -149,10 +160,14 @@ small {
 
 #tea-box {
 	background-color: #6f4e37;
+	position:relative;
 }
 
 #cold-drinks-box {
 	background-color: chocolate;
+	position:relative;
+	right:70px;
+	top:-15px;
 }
 
 .drinks-box {
