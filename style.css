@@ -152,6 +152,7 @@ small {
     padding:1rem;
 	background-image:url("https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg");
 	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 ul {
