@@ -9,6 +9,10 @@ body {
 	background-color:black;
 }
 
+.home {
+    background-image:url("https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffeehouse.jpg");
+}
+
 h1,h2,h3 {
 	font-family: 'Merienda One', 'Brush Script MT', cursive;
 }
@@ -144,6 +148,7 @@ small {
 
 #drinks {
     padding:1rem;
+	background-image:url("https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg");
 }
 
 ul {
@@ -209,6 +214,10 @@ form {
 	padding:25px;
 	border-radius:8px;
 	background-color:white;
+}
+
+.form-page-header {
+    background-image:url("https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/table.jpg");
 }
 
 #terms {
