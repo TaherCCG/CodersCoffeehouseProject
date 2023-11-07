@@ -2,6 +2,7 @@
 
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
+	margin:0;
 	background-color:whitesmoke;
 }
 
@@ -21,7 +22,7 @@ h1,h2,h3 {
 	font-family: 'Merienda One', 'Brush Script MT', cursive;
 }
 
-#contact{
+#contact {
 margin-bottom: 50px;
 }
 
@@ -37,7 +38,7 @@ width: 250px;
 
 .contact-box-right{
 margin-top: -20px;
-text-align: center;
+text-align: right;
 width: 250px;
 }
 
@@ -50,6 +51,7 @@ width: 250px;
   
 h1 {
 	font-size: 3rem;
+	margin:0;
 }
 
 h2 {
@@ -71,6 +73,7 @@ header {
 img {
 	border-radius: 8px;
 	width: 96%;
+	margin:2%;
 }
 
 th ,td {
@@ -108,8 +111,8 @@ strong {
 
 nav {
     padding:1rem;
-	background-color: black;
 }
+
 nav > a {
 	text-decoration: none;
 	color: beige;
@@ -132,11 +135,16 @@ small {
     padding:10px 5px 25px 5px;
 	border-radius:8px;
 	width:100%;
+	margin:2%;
 	background-color:chocolate;
 }
 
 #coffee-box {
 	background-color: brown;
+}
+
+#reasons li {
+    margin-top: 5%;
 }
 
 #tea-box {
@@ -149,6 +157,7 @@ small {
 
 .drinks-box {
 	width: 33%;
+	margin: 1rem 0;
 	display:inline-block;	
 }
 .one-third-width-column {
@@ -162,7 +171,8 @@ small {
 }
 
 #drinks {
-    padding:1rem;
+    padding:1rem 0;
+	margin-bottom:80px;
 	background:url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') center center / cover no-repeat fixed;
 }
 
@@ -197,6 +207,7 @@ footer > p {
 }
 
 button[type=submit] {
+	margin-top: 20px;
 	margin-left: 0.75rem;
 	padding: 0.75rem;
 	background-color: #5e361b;
@@ -217,6 +228,7 @@ input[list=coffees] {
     height: 30px;
     width: 90%;
     padding-left: 10px;
+	margin: 0 auto;
 }
 
 /* overrides css above */
@@ -228,6 +240,7 @@ form {
 	width: 700px;
 	padding:25px;
 	border-radius:8px;
+	margin: 25px auto;
 	background-color:white;
 }
 
@@ -240,10 +253,18 @@ form {
     width:90%;
     height:200px;
     padding:0.5rem;
+	margin: 1.5rem 0 0 15px;
 }
 
 fieldset {
     border:none;
+	margin-top:20px;
+}
+
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 55px;
 }
 
 #map {
@@ -256,5 +277,13 @@ legend {
 	font-size: large;
 	font-weight: 600;
 	text-transform: uppercase;
+	margin: 20px 0 10px 0;
 }
 
+label {
+	margin: 10px 15px 5px 0;
+}
+
+.checkboxes-box div {
+    margin-top: 15px;
+}
