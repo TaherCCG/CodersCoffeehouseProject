@@ -8,6 +8,34 @@ h1,h2,h3 {
 	font-family: 'Merienda One', 'Brush Script MT', cursive;
 }
 
+#contact{
+margin-bottom: 50px;
+
+}
+
+.contact-boxed-container{
+margin:0 auto;
+width: 66%;
+}
+
+.contact-box-left{
+margin-top: -20px;
+width: 250px;
+}
+
+.contact-box-right{
+margin-top: -20px;
+text-align: center;
+width: 250px;
+}
+
+.contact-box-center {
+	margin:0 auto;
+	text-align:center;
+	height:250px;
+	width:250px;
+}
+  
 h1 {
 	font-size: 3rem;
 }
