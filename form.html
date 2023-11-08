@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+    
     <head>
-        <title>Win a years supply of coffee from Coders Coffeehouse</title>
-         <!-- link to css stylesheet-->
-        <link rel="stylesheet" href="style.css">  
-            
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Description -->
+        <meta name="description" content="Complete our survey for your chance to win a years supply of coffee from Coders Coffeehouse.">
+	    <meta name="keywords" content="coffeehouse, coffee, developers cafe, free wifi, dublin">
+	    <meta name="author" content="Coders Coffeehouse">
+        <!-- link to css stylesheet-->
+        <link rel="stylesheet" href="style.css">
+         <!-- Title tag-->        
+        <title>Win a years supply of coffee from Coders Coffeehouse</title>            
     </head>
 
     <body>
         <!-- Header start-->
-        <header class="page-header form-page-header">
-            <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
-            <p>Complete our survey for your chance to win!</p>
+        <header class="page-header form-page-header text-center">
+            <div class="vertical-center">
+                <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
+                <p>Complete our survey for your chance to win!</p>
+            </div>
         </header>
         <!-- Header end-->
 
         <hr>
         <!-- Navigation menu start-->
-        <nav class="black-background">
-            <a href="index.html#home">Home</a>
-            <a href="index.html#drinks">Drinks Menu</a>
-            <a href="index.html#contact">Contact</a>
-            <a href="form.html">Win Free Coffee</a>
+        <nav class="black-background text-center">
+            <a href="index.html#home" aria-label="Go to the top of the page">Home</a>
+            <a href="index.html#drinks" aria-label="Go to drinks menu section">Drinks Menu</a>
+            <a href="index.html#contact" aria-label="Go to contact information section">Contact</a>
+            <a href="form.html" aria-label="Fill in our survey for your chance to win free coffee">Win Free Coffee</a>
         </nav>
         <!-- Navigation menu end-->
         
@@ -38,27 +47,26 @@
                     <label class="block-label" for="email-field">Email</label>
                     <input id="email-field" type="email" placeholder="Your email" name="email" required>
                 </div>
-                <div>
-                    <label class="block-label" type="text" for="age">Age</label>
-                    <select id="age" name="age" required>
-                        <option type="text" value="under-20">Under 20</option>
-                        <option type="text" value="20s">20-29</option>
-                        <option type="text" value="30s">30-39</option>
-                        <option type="text" value="40s">40-49</option>
-                        <option type="text" value="50s">50-59</option>
-                        <option type="text" value="60+">60+</option>
-                    </select>
-                </div>
+                
+                <label class="block-label" type="text" for="age">Age</label>
+                <select id="age" name="age" required>
+                    <option type="text" value="under-20">Under 20</option>
+                    <option type="text" value="20s">20-29</option>
+                    <option type="text" value="30s">30-39</option>
+                    <option type="text" value="40s">40-49</option>
+                    <option type="text" value="50s">50-59</option>
+                    <option type="text" value="60+">60+</option>
+                </select>               
             </fieldset>
             <!-- Details section end-->
-            <br>
+            
             <!-- Products section-->
             <fieldset>
                 <legend>Our products</legend>    
                 <div>
                     <label class="block-label" for="fav-coffe">What is your favourite coffee?</label>
-                    <input id="fav-coffee" name="fav-coffee" list="coffee" required>
-                    <datalist id="coffee">
+                    <input id="fav-coffee" name="fav-coffee" list="coffees" required>
+                    <datalist id="coffees">
                         <option value="Latte"></option>
                         <option value="Americano"></option>
                         <option value="Cappuccino"></option>
@@ -67,7 +75,7 @@
                     </datalist>
                 </div>
         
-                <p>How many cups of coffee do you drink a day?</p>
+                <p class="bold">How many cups of coffee do you drink a day?</p>
         
                 <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
                 <label for="0-2cups-radio">0 to 2 cups</label>
@@ -81,7 +89,7 @@
                 <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups" type="radio" required>
                 <label for="9plus-cups-radio">9 or more cups</label>
         
-                <p>How often do you visit Coders Coffeehouse?</p>
+                <p class="bold">How often do you visit Coders Coffeehouse?</p>
         
                 <input type="radio" id="once-a-week" value="once-a-week" name="visit-frequency" required>
                 <label for="once-a-week">Once a week</label>
@@ -124,11 +132,9 @@
             <!-- Feedback section-->
             <fieldset>
                 <legend>Feedback</legend>
-                <div>
-                    <label class="block-label" for="feedback">What can we do to improve your experience with us?</label>
-                    <br>
-                    <textarea id="feedback" rows="10" cols="50" placeholder="your feedback" name="feedback" required></textarea>
-                </div>
+                <label class="block-label" for="feedback">What can we do to improve your experience with us?</label>
+                <br>
+                <textarea id="feedback" rows="10" cols="50" placeholder="your feedback" name="feedback" required></textarea>
             </fieldset>
             <!-- Feedback section end-->
             <div id="terms">
@@ -194,7 +200,7 @@
 
             <br>        
             <div>
-                <button type="submit"><strong>Enter prize draw</strong></button>
+                <button type="submit" class="block-label"><strong>Enter prize draw</strong></button>
                 <button type="reset">Reset Form</button>                
             </div>
         </form>
