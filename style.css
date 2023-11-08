@@ -275,6 +275,7 @@ form {
     height:200px;
     padding:0.5rem;
 	margin: 1.5rem 0 0 15px;
+	overflow:scroll;
 }
 
 fieldset {
