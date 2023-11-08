@@ -26,22 +26,22 @@ h1,h2,h3 {
 margin-bottom: 50px;
 }
 
-.contact-boxed-container{
+.contact-boxes-container {
 margin:0 auto;
 width: 66%;
 }
 
-.contact-box-left{
+.contact-box-left {
 margin-top: -20px;
 width: 250px;
 float:left;
 }
 
-.contact-box-right{
+.contact-box-right {
 margin-top: -20px;
 text-align: right;
 width: 250px;
-float:right;
+float: right;
 }
 
 .contact-box-center {
