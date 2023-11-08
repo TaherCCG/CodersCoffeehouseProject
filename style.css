@@ -147,7 +147,7 @@ small {
 
 .vertical-center {
     position:relative;
-    top:50%;
+    top:30%;
 }
 
 .reasons-box {
@@ -255,9 +255,19 @@ button[type=submit] {
 	border-radius: 5px;
 }
 
+button[type=reset] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: white;
+	color: #5e361b;
+	border: 1px solid #5e361b;
+	border-radius: 5px;
+}
+
 select {
     padding-left:10px;
-    height:30px;
+    height:36px;
     width:100px;
 }
 
@@ -304,7 +314,7 @@ fieldset {
 #map-wrapper {
 
     height: 300px;
-    margin-bottom: 55px;
+    margin-bottom: 107px;
 }
 
 #map {
