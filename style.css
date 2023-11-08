@@ -161,6 +161,7 @@ small {
 #tea-box {
 	background-color: #6f4e37;
 	position:relative;
+	z-index:1;
 }
 
 #cold-drinks-box {
@@ -223,6 +224,7 @@ footer > a {
 
 footer > p {
 	color: silver;
+	z-index:3;
 }
 
 button[type=submit] {
